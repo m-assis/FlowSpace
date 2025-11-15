@@ -35,8 +35,7 @@ Siga estes passos simples para rodar o FlowSpace no seu navegador:
 
 1.  **Clone o Repositório:**
     ```bash
-    git clone [https://github.com/SeuNomeDeUsuario/FlowSpace-Web.git](https://github.com/SeuNomeDeUsuario/FlowSpace-Web.git)
-    cd FlowSpace-Web
+    git clone [EM BREVE]
     ```
 2.  **Abra o Arquivo:**
     O projeto não requer servidor de *backend*. Basta abrir o arquivo `index.html` em qualquer navegador moderno.
