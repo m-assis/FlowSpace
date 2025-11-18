@@ -403,7 +403,7 @@ body.dark-mode {
 }
 .notes-card textarea {
     width: 100%;
-    height: calc(100% - 40px);
+    height: calc(100% - 50px);
     background-color: #34374b;
     border: 1px solid #4a4d65;
     border-radius: 8px;
