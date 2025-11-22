@@ -9,9 +9,8 @@
     --color-primary-blue: #007bff;   /* Azul Primário para botões e destaque */
     --color-focus-highlight: #3498db; /* Azul Brilhante para Timer (Foco) */
     --color-focus-break: #2ecc71;    /* Verde para a Pausa (Relaxamento) */
-    --header-height: 70px;           /* Altura fixa do cabeçalho */
-    /* CORREÇÃO: Variável global para o fundo da notificação */
-    --color-notification-bg: #5a7d9b; 
+    --header-height: 50px;           /* Altura fixa do cabeçalho */
+    --color-notification-bg: #5a7d9b; /* Variável global para o fundo da notificação */
 }
 
 /* Estilo do Body para o tema escuro */
@@ -31,7 +30,8 @@ body.dark-mode {
     2. HEADER (CABEÇALHO SUPERIOR)
     ================================================================= */
 .dashboard-header {
-    height: var(--header-height);
+    min-height: var(--header-height);
+    height: auto;
     background-color: var(--color-dark-card);
     display: flex;
     justify-content: space-between;
@@ -403,7 +403,7 @@ body.dark-mode {
 }
 .notes-card textarea {
     width: 100%;
-    height: calc(100% - 40px);
+    height: calc(100% - 50px);
     background-color: #34374b;
     border: 1px solid #4a4d65;
     border-radius: 8px;
