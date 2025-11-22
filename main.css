@@ -82,7 +82,7 @@ p { font-size: 1rem; }
 
 .hero-section {
     position: relative;
-    background-image: url("Heronfs.png"); 
+    background-image: url("./img/heronfs.png"); 
       
     background-size: cover; 
     
